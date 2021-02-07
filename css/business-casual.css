@@ -71,7 +71,7 @@ p {
 }
 
 .bg-faded {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 #mainNav {
@@ -80,7 +80,7 @@ p {
 }
 
 #mainNav .navbar-brand {
-  color: #e6a756;
+  color: rgb(112,211,240);
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
