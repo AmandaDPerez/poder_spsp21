@@ -211,7 +211,7 @@ p {
 
 .list-hours .list-hours-item.today {
   font-weight: bold;
-  color: #e6a756;
+  color:#56c9e6;
 }
 
 @media (min-width: 992px) {
@@ -226,11 +226,11 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color:#2494ad;
 }
 
 .text-primary {
-  color: #e6a756 !important;
+  color: #56c9e6 !important;
 }
 
 .bg-primary {
@@ -242,13 +242,13 @@ p {
 }
 
 .btn-primary {
-  background-color: #e6a756;
-  border-color: #e6a756;
+  background-color: #56c9e6;
+  border-color: #56c9e6;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #df902a;
-  border-color: #df902a;
+  background-color: #2494ad;
+  border-color: #2494ad;
 }
 
 .font-weight-light {
