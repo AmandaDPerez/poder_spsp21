@@ -29,6 +29,7 @@ Well-behaved residuals. Residuals (i.e., prediction errors) aren't correlated wi
 ```{r, message = F, warning = F}
 # use install.packages() if you need to install any of the below libraries.
 # https://www.r-bloggers.com/2010/11/installing-r-packages/
+library(prettydoc)
 library(kableExtra)
 library(tidyverse)
 library(knitr)

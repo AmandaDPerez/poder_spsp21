@@ -14,8 +14,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Serial Mediation
 
-![](serial-mediation.png)
-
 In our serial mediation. There are an independent variable and a dependent variable, and two mediators. The two mediators do an increasingly better job at predicting the dependent variable. The schematic above depicts how it works. In everyday research, one should deduct this serial mediation model from theory or previous findings.
 
 ## Loading Libraries
@@ -23,6 +21,9 @@ In our serial mediation. There are an independent variable and a dependent varia
 We begin by loading the *lavaan* and *lavaanPlot* packages.
 
 ```{r, warning = F, message = F}
+# use install.packages() if you need to install any of the below libraries.
+# https://www.r-bloggers.com/2010/11/installing-r-packages/
+library(prettydoc)
 library(lavaan)
 library(lavaanPlot)
 library(tidyverse)
